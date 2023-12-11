@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:rgb(210, 153, 186);
+    width: 434px;
+    height: 98.5vh;
+    font-size: 'Fira', sans-serif;
+}
+
+.sidebar nav{
+    padding: 72px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size:30px ;
+    padding: 33px;
+}
+
+.main{
+    background-color:rgb(98, 98, 188); 
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: rgb(169, 116, 218);
+    height: 45vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 80px;
+}
+
+.name{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 50px;
+}
+
+.moreabout{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons{
+    margin: 34px;
+}
+
+.Btn{
+    padding: 9px 24px;
+    border-radius: 22px;
+    color: beige;
+    background-color: rgb(155, 222, 222);
+    font-weight: bold;
+    font-size:22px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.Btn-sm{
+    font-size:14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.Btn:hover{
+    color: azure;
+    background-color: rgb(155, 222, 222);
+}
+
+.devPic img{
+    height: 48vh;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Times New Roman', Times, serif;
+       
+}
+.contactform h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px 0;
+
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: bisque;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin :3px;
+}
+
+.achievement.Item{
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+.achievement.container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.achievement.p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
